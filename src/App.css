@@ -9,6 +9,26 @@ body {
   margin-left: 50px;
 }
 
+div .film-list {
+  margin: 0 0 40px 50px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+/* POUR MASQUER LA SCROLLBAR */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+div .film-list img {
+  width: 220px;
+  height: 124px;
+}
+
 .section h1 {
-  color: red;
+  font-size: 20px;
+  margin: 20px 0 20px 50px;
 }

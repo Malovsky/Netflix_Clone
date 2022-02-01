@@ -9,14 +9,9 @@ function App() {
   return (
     <div className="App">
       <img className="logo" src={AppLogo} alt="Logo Netflix" />
-      {data.map((category, index) => {
-        console.log(category);
+      {data.map((item, index) => {
         return (
-          <Section
-            key={index}
-            category={category.category}
-            films={category.images}
-          />
+          <Section key={index} category={item.category} films={item.images} />
         );
       })}
     </div>
