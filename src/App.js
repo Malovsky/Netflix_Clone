@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Section from "./components/Section";
+// Import du JSON
+import data from "./assets/movies_rnexgr.json";
+// Import de l'image
+import Logo from "./assets/netflixlogo.png";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <img className="logo" src={Logo} alt="Logo Netflix" />
     </div>
   );
 }
