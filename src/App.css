@@ -8,3 +8,7 @@ body {
   height: 100px;
   margin-left: 50px;
 }
+
+.section h1 {
+  color: red;
+}
